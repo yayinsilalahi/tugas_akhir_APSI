@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Altone Trial';
+    src: url(fonts/Altone-Trial-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Altone Trial Bold' ;
+    src: url(fonts/Altone-Trial-Bold.ttf) format(truetype);
+}
+
+body{
+    margin: 40px;
+    background-color: black;
+    height: 100vh;
+}
+/* .sidebar .content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.full{
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* SIDEBAR */
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    padding: 0 30px 0 0;
+    margin-left: 20px;
+    background-color: rgb(7, 6, 6);
+
+}
+
+.sidebar-nav{
+    height: 93vh;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.navigasi{
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+}
+.sidebar-nav h1{
+    font-family: 'Altone Trial Bold';
+    color: white;
+}
+
+.sidebar-nav ul{
+    margin-left: -28px;
+    list-style-type: none;
+}
+
+.sidebar-nav a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar-nav p{
+    margin-top: -5px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: 'Altone Trial';
+}
+
+.nav-link{
+    font-family: 'Altone Trial Bold';
+    font-size: 20px;
+    color: white;
+}
+.nav-akun{
+    font-family: 'Altone Trial Bold';
+    list-style: none;
+    text-decoration: none;
+    gap: 2rem;
+    font-size: 20px;
+}
+.link-akun{
+    font-family: 'Altone Trial Bold';
+}
+
+/* SIDEBAR */
+.content {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+/* NAVBAR */
+.nav-head{
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-head a {
+    font-family: 'Altone Trial Bold';
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav-head img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+.box{
+    margin-left: 20px;
+    background-color: white;
+    width: 300px;
+    padding: 6px;
+    border-radius: 20px ;
+}
+.box i{
+    font-size: 16px;
+}
+.nav-head input[type="text"] {
+    width: 250px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.fa-solid{
+    line-height: 2;
+    color: white;
+    font-size: 24px;
+}
+
+.nav-set{
+    font-family: 'Altone Trial Bold';
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 10px;
+    margin-right: 0;
+    justify-content: space-between;
+}
+.nav-set i{
+    color: white;
+}
+
+.playlist i{
+    color: white;
+}
+
+.playlist p{
+    color: rgb(185, 168, 168);
+}
+
+
+/* MAIN */
+.lagu {
+    color: white;
+    height: 90vh;
+    width: 850px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+}
+
+.lagu p{
+    font-family: 'Altone Trial Bold';
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.easy{
+    margin-top: 150px;
+}
+
+.lagu h1{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    font-family: 'Akira';
+}
+.lagu h3{
+    font-family: 'Altone Trial Bold';
+    margin: 0;
+}
+.easy p{
+    font-family: 'Altone Trial';
+    margin: 0;
+}
